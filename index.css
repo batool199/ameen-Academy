@@ -1,0 +1,213 @@
+*     {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+}
+
+
+
+#logo img    {
+  width: 70px;
+  border-radius: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+
+#logo         {
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+
+#logo span   {
+  display: inline-block;
+}
+
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #fcff59bf;
+}
+
+.hero           {
+  min-height: 500px;
+  text-align: center;
+  background-image: url('cover11.jpg');
+  background-size: cover;
+}
+.hero-content   {
+  color: #FFF;
+  padding-top: 130px;
+}
+.hero-content h1   {
+  font-size: 80px;
+  margin: 0;
+  color: #212529;
+  background-color: #e9ecef94;
+  font-family: Comic Sans MS;
+}
+.hero-content a    {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+}
+
+.site-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.site-section-inside   {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+
+.card {
+    display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+    flex-direction: column;
+    border: none;
+}
+
+ .mx-auto{
+	width: 250px;
+    height: 200px;
+    margin-top: 30px;
+	
+ }
+.card-text{
+	display: inline-block;	
+}
+
+h2{
+    margin: auto;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+.testimonial-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.testimonial-author img {
+  float: left;
+  width: 99px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testimonial-author h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:15px;
+}
+.testimonial-author span {
+  font-size: 14px;
+}
+
+.btn-warning {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 15px;
+}
+
+footer   {
+  background: #222;
+  color: #777;
+  padding: 15px;
+  text-align: center;
+}
+footer img   {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 10px;
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: yellow;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
